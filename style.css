@@ -1,0 +1,197 @@
+:root {
+    font-size: 62.5%;
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-inline: auto;
+}
+body { 
+    overflow-x: hidden;
+}
+/* ----------------------NAV---------------------- */
+nav {
+    display: none;
+}
+nav .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 2rem;
+    color: black;
+    margin-inline: auto;
+    width: 100%;
+    max-width: 40rem;
+
+    padding: 4rem 3.5rem 0;
+}
+.menu a {
+    color: black;
+    font-weight: 700;
+}
+.menu ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+nav .itens {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 3rem;
+    margin-top: 8.3rem;
+}
+.itens a {
+    color: #737373;
+}
+/* ----------------------HEADER1---------------------- */
+header {
+    background-image: url(/assets/mulher_com_sacola_fundo_azul.jpg);
+    height: 630px;
+}
+.headerContent {
+    z-index: 4;
+}
+header img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    display: hidden;
+}
+header h1,
+.header3 h1 {
+    font-size: 4rem;
+    color: white;
+    width: 100%;
+    max-width: 34rem;
+}
+header p,
+.header3 {
+    font-size: 2rem;
+    color: white;
+}
+header button {
+    width: 22.8rem;
+    height: 6.2rem;
+
+    background: #2DC071;
+    border-radius: 5px;
+    border: none;
+}
+header a {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+header p:nth-child(1) {
+    padding-block: 13rem 3.5rem;
+}
+header p:nth-child(3) {
+    margin-block: 3.5rem;
+}
+/* ----------------------HEADER2---------------------- */
+.header2 {
+background-color: #E0D3D0;   
+height: 63rem;
+position: relative;
+z-index: -2;
+ }
+   
+
+.header2 h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    width: 300px;
+    padding-top: 14.1rem;
+}
+.header2 p {
+    font-size: 2rem;
+    margin-block: 4rem;
+    
+    color: #737373;
+
+    width: 200px;
+}
+.header2 button {
+    width: 16.3rem;
+    height: 5.2rem;
+
+    background-color: transparent;
+
+    color: #23A6F0;
+    font-weight: 700;
+
+    border: 1px solid #23A6F0;
+    border-radius: 5px;
+}
+.header2 img {
+    position: absolute;
+    top: 13rem;
+    right: -160px;
+    z-index: -1;
+}
+
+.header2 .mulhersection2 {
+    position: absolute;
+    top: 105px;
+    left: -545px;
+}
+.header2 picture {
+    width: 100%;
+    height: 100%;
+}
+.mulhersection2 {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 400px;
+
+}
+
+/* ----------------------HEADER3---------------------- */
+.header3 {
+    height: 63rem;
+    /* background-image: url(/assets/header3/background3.jpg); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+}
+.header3 h1 {
+    padding-bottom: 2.4rem;
+}
+.header3 p {
+    margin-bottom: 2.4rem;
+    width: 30rem;
+}
+
+
+.header3 button {
+    width: 22.8rem;
+    height: 6.2rem;
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: white;
+
+    background: #23A6F0;
+    border-radius: 5px;
+    border: none;
+}
+.header3 picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+
+    width: 100%;
+    height: 100%;
+
+}
